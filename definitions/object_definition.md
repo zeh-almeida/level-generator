@@ -19,7 +19,9 @@ Objects can have a trigger specified. At this moment, the `Level Generator` will
 
 Objects must define how many tiles they occupy and if they should be placed inside the tile, on top or bottom.
 
-For example:
+Objects must also declare their type in order for the `Level Generator` to access their constraints.
+
+## Example
 
 Spikes occupy two horizontal and two vertical tiles.
 They must be placed inside the tile they are anchored to and cannot have objects on top of them.
@@ -32,13 +34,13 @@ Objects types define how they interact with the environment and the room they ar
 
 Currently the known types are:
 
-- [Traps](#trap-objects)
-- [Doors](#door-objects)
-- [Boss](#boss-objects)
-- [NPC](#npc-objects)
-- [PC](#pc-objects)
-- [Items](#item-objects)
-- [Terrain](#terrain-objects)
+- [•](#trap-objects) Traps
+- [•](#door-objects) Doors
+- [•](#boss-objects) Boss
+- [•](#npc-objects) NPC
+- [•](#pc-objects) PC
+- [•](#item-objects) Items
+- [•](#terrain-objects) Terrain
 
 ### Trap Objects
 
@@ -115,6 +117,6 @@ Terrain does not need to be rectangular as the rooms. They may be diagonal as we
 
 Terrain objects must always define their start and end tiles. This allows the `Level Generator` to place other objects regarding the terrain limitations.
 
-For example:
+#### Example
 
 If a slope has a `height of 2 tiles`, a [door](#door-objects) cannot the opened if it stays directly behind this slope. Therefore, the `Level Generator` must change the door placement to be on top of the slope.
