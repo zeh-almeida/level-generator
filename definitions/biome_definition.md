@@ -16,9 +16,9 @@ The `mountain` biome however has a neutral affinity to both `magma` and `forest`
 
 Affinity defines how `biomes` can be connected. There are three types of affinity:
 
-- [Positive](#positive-affinity)
-- [Negative](#negative-affinity)
-- [Neutral](#neutral-affinity)
+- [•](#positive-affinity) Positive
+- [•](#negative-affinity) Negative
+- [•](#neutral-affinity) Neutral
 
 Affinity is a relationship exclusevely between two different biomes. If an affinity is not defined, it must be considered neutral.
 
@@ -41,3 +41,53 @@ Conections must be formed by a [neutral](#neutral-affinity) biome between the ne
 `Biomes` with neutral affinity can be used to connect to any biome.
 
 They are specially useful to connect biomes with [negative affinity](#negative-affinity).
+
+## Properties
+
+`Biomes` have a set of properties, some of which have default values.
+
+- [•](#name) Name
+- [•](#maximum-room-size) Maximum Room Size
+- [•](#minimum-room-size) Minimum Room Size
+- [•](#affinity-map) Affinity Map
+
+### Name
+
+Name of the `biome`, used to identify it when running the `Level Generator`. Must be unique across other `biomes` in order to avoid conflicts.
+
+Should be a `string` in `UTF-8` encoding, up to `50` characters.
+Cannot be null nor empty.
+
+### Maximum Room Size
+
+Especifies that any `room` with this `biome` cannot have its height nor length be longer than this value.
+
+The default value is the `(current tile size) * 2`.
+
+### Minimum Room Size
+
+Especifies that any `room` with this `biome` cannot have its height nor length be less than this value.
+
+The default value is the `(current tile size) * 2`.
+
+### Affinity Map
+
+Relation of `biome name` and `affinity` value for the current `biome`.
+
+This allows the `Level Generator` to easily check affinity values with the `biome`.
+
+If a `biome name` is not found in this map, it should consider the biome with `neutral affinity`.
+
+#### Example
+
+The biome `Forest` has the following `Afinity Map`:
+
+- `Mountain` with `Positive Affinity`
+- `Lake` with `Positive Affinity`
+- `Cave` with `Positive Affinity`
+- `Desert` with `Negative Affinity`
+- `Volcano` with `Negative Affinity`
+
+If the `Level Generator` tries to match the `Praire` biome to the `Forest` biome, the result should be `Neutral Affinity` because `Forest` biome didn't specify a relationship.
+
+`Praire` could also have an `Affinity Map` specifying this relationship with `Forest`, which could change the outcome, but not for this example.
