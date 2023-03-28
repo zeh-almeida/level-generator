@@ -45,6 +45,7 @@ They are specially useful to connect biomes with [negative affinity](#negative-a
 ## Properties
 
 `Biomes` have a set of properties, some of which have default values.
+All of them are required.
 
 - [•](#name) Name
 - [•](#maximum-room-size) Maximum Room Size
@@ -64,11 +65,15 @@ Especifies that any `room` with this `biome` cannot have its height nor length b
 
 The default value is the `(current tile size) * 2`.
 
+Should be a `unsigned 8-bit integer`, must be greater than zero or default.
+
 ### Minimum Room Size
 
 Especifies that any `room` with this `biome` cannot have its height nor length be less than this value.
 
 The default value is the `(current tile size) * 2`.
+
+Should be a `unsigned 8-bit integer`, must be greater than zero or default.
 
 ### Affinity Map
 
@@ -77,6 +82,8 @@ Relation of `biome name` and `affinity` value for the current `biome`.
 This allows the `Level Generator` to easily check affinity values with the `biome`.
 
 If a `biome name` is not found in this map, it should consider the biome with `neutral affinity`.
+
+It can be empty but not null. If empty, it is neutral to all other `biomes`.
 
 #### Example
 
