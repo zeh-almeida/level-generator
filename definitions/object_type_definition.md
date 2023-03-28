@@ -1,6 +1,6 @@
 # Object Types
 
-Objects types define how [objects](object_definition.md#what-is-an-object) interact with the environment and the room they are located.
+`Objects types` define how [objects](object_definition.md#what-is-an-object) interact with the environment and the room they are located.
 
 Currently the known types are:
 
@@ -8,9 +8,9 @@ Currently the known types are:
 - [•](#door-objects) Doors
 - [•](#boss-objects) Boss
 - [•](#npc-objects) NPC
-- [•](#pc-objects) PC
+- [•](#pc-objects) Player Characters
 - [•](#item-objects) Items
-- [•](#terrain-objects) Terrain
+- [•](#terrain-objects) Terrain features
 
 ## Trap Objects
 
@@ -53,7 +53,7 @@ They can also interact with other objects but the objects are responsible for ha
 
 NPCs can be friendly to [PCs](#pc-objects) or not, it is not important to the room definition but can be useful for planning the room disposition.
 
-This type can be stacked: it is possible to have two NPCs occupy the same place inside the room. Their interaction as objects is not handled by the room generator, it is only mentioned to help with room placement.
+This type can be stacked: it is possible to have two NPCs occupy the same place inside the room. Their interaction as objects is not handled by the `Level Generator`, it is only mentioned to help with room placement.
 
 ## PC Objects
 
@@ -61,7 +61,7 @@ Represents a Player Character. While a PC is very siumilar to a [NPC](#npc-objec
 
 It can interact with other objects and those objects are responsible to define how the interaction is resolved.
 
-It can also be stacked: it is possible to have two PCs occupy the same place inside the room. Their interaction as objects is not handled by the room generator, it is only mentioned to help with room placement.
+It can also be stacked: it is possible to have two PCs occupy the same place inside the room. Their interaction as objects is not handled by the `Level Generator`, it is only mentioned to help with room placement.
 
 ## Items Objects
 
