@@ -21,7 +21,7 @@ All of them are required.
 - [•](#width) Width
 - [•](#height) Height
 - [•](#biome-name) Biome Name
-- [•](#type-name) Type Name
+- [•](#room-type-value) Room Type Value
 
 ### Width
 
@@ -41,8 +41,8 @@ Identifies the `room`'s [biome](biome_definition.md#what-is-a-biome).
 
 Can never be null nor empty and should match an existing `biome`.
 
-### Type Name
+### Room Type Value
 
 Identifies the `room`'s [type](room_type_definition.md#room-types).
 
-Can never be null nor empty and should match an existing `biome`.
+Can never be null nor empty and should be valid for the room's current `biome`.
