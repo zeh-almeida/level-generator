@@ -8,3 +8,6 @@
 their orientation depends on their definition. This means items can be placed on the ceiling for example, if their definition and their anchor point allows.
 
 Items must respect the final number of objects in the room.
+
+| [Previous](doors.md) | [Next](npcs.md) |
+| -------------------- | --------------- |

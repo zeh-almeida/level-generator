@@ -29,3 +29,6 @@ The object number does not limit any game engine to add more objects to the room
 Once this variables are known, the `Level Generator` can build the room.
 
 This step can only run once per room.
+
+| [Previous](levels.md) | [Next](terrain.md) |
+| --------------------- | ------------------ |

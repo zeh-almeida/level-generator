@@ -11,3 +11,6 @@ This ensures all steps are aware of the tile constant, helping them decide on ob
 The `Level Generator` must validate the [tile size](../definitions/tile_definition.md#tile-size) and store its value for later use.
 
 This value must be provided from the environment. If not supplied, assume the default value.
+
+| [Previous](README.md) | [Next](levels.md) |
+| --------------------- | ----------------- |

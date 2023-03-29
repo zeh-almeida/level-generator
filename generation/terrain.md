@@ -23,3 +23,6 @@ For example:
 If a `slope` terrain object leans on the bottom left corner of the room, a door placed there is not accessible, so it should be moved to the end of the `slope`.
 
 This step can be skipped or executed as many times as the room has reserved slots for terrain objects.
+
+| [Previous](rooms.md) | [Next](doors.md) |
+| -------------------- | ---------------- |

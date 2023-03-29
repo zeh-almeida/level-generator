@@ -15,3 +15,6 @@ Given a door that is two tiles high and one tile across, palce it at the leftmos
 In order to have this door accessible, a two tile-high, one tile-long space must exist at the right of this door.
 
 Doors and corridors must respect the final number of objects in the room.
+
+| [Previous](terrain.md) | [Next](items.md) |
+| ---------------------- | ---------------- |

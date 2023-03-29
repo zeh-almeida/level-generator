@@ -40,3 +40,6 @@ The `Level Generator` must have at least `1` of each of the following [objects](
 - [•](../definitions/object_type_definition.md#items-objects) Item
 
 Those `objects` grant a use for exploration and objective to the result of the process.
+
+| [Previous](tiles.md) | [Next](rooms.md) |
+| -------------------- | ---------------- |
