@@ -1,5 +1,5 @@
-| [Previous](doors.md) | [Next](items.md) |
-| -------------------- | ---------------- |
+| [Next](tiles.md) |
+| ---------------- |
 
 # Generation Order
 
