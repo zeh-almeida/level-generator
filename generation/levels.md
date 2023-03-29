@@ -1,3 +1,6 @@
+| [Previous](tiles.md) | [Next](rooms.md) |
+| -------------------- | ---------------- |
+
 # Level Constraints
 
 A [level](../definitions//level_definition.md#what-is-a-level) must define how many rooms are expected to be generated. This number does not need to be fixed, it can also be provided as a minimum-maximum value.

@@ -1,3 +1,6 @@
+| [Previous](levels.md) | [Next](terrain.md) |
+| --------------------- | ------------------ |
+
 # Room Generation
 
 Once the tile size and biome are known, the [room](../definitions/room_definition.md#what-is-a-room) can be generated.

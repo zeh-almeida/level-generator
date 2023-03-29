@@ -1,3 +1,6 @@
+| [Previous](doors.md) | [Next](npcs.md) |
+| -------------------- | --------------- |
+
 # Item Placement
 
 [Items](../definitions/object_definition.md#items-objects) can be placed on any tile of the room, including [terrain objects](../definitions/object_definition.md#terrain-objects).

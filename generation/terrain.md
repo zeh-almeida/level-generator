@@ -1,3 +1,6 @@
+| [Previous](rooms.md) | [Next](doors.md) |
+| -------------------- | ---------------- |
+
 # Terrain Object Selection
 
 [Terrain objects](../definitions/object_definition.md#terrain-objects) are trickier to select.

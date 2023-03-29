@@ -1,3 +1,6 @@
+| [Previous](npcs.md) |
+| ------------------- |
+
 # PC Placement
 
 PC do not respect the final number of objects in the room because it is used as a generation guide, not a generated object.

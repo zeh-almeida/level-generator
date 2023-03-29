@@ -1,3 +1,6 @@
+| [Previous](items.md) | [Next](players.md) |
+| -------------------- | ------------------ |
+
 # NPC Placement
 
 NPCs must be placed on a stable tile but their orientation depends on their definition. This means NPCs can be placed on the ceiling for example, if their definition and their anchor point allows.

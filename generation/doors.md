@@ -1,3 +1,6 @@
+| [Previous](terrain.md) | [Next](items.md) |
+| ---------------------- | ---------------- |
+
 # Door/Corridor Placements
 
 [Doors and corridors](../definitions/object_definition.md#door-objects) are placed in a [room](../definitions/room_definition.md#what-is-a-room) in order to connect it to a neighboring room.

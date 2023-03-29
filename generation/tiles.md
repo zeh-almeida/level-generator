@@ -1,3 +1,6 @@
+| [Previous](README.md) | [Next](levels.md) |
+| --------------------- | ----------------- |
+
 # Tile Characteristics
 
 [Tiles](../definitions/tile_definition.md#what-is-a-tile) must be given their size before anything else.
