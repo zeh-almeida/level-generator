@@ -68,7 +68,7 @@ Especifies that any `room` with this `biome` cannot have its height nor length b
 
 The default value is the `(current tile size) * 2`.
 
-Should be a `unsigned 8-bit integer`, must be greater than zero or default.
+Should be a `unsigned 16-bit integer`, must be greater than zero or default. Cannot be less than [the minimum room size](#minimum-room-size).
 
 ### Minimum Room Size
 
@@ -76,7 +76,7 @@ Especifies that any `room` with this `biome` cannot have its height nor length b
 
 The default value is the `(current tile size) * 2`.
 
-Should be a `unsigned 8-bit integer`, must be greater than zero or default.
+Should be a `unsigned 16-bit integer`, must be greater than zero or default. Cannot be greater than [the maximum room size](#maximum-room-size).
 
 ### Affinity Map
 

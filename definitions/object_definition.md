@@ -49,16 +49,14 @@ They must be placed inside the tile they are anchored to and cannot have objects
 Value is never null nor empty.
 Value is generated when the `object` definition is registered in the `Level Generator`.
 
-Must be unique across other `objects` in order to avoid conflicts.
+Must be unique across other `objects` in order to avoid conflicts, must be represented as a `unsigned 16-bit integer` value and must be greater than zero.
 
 ### Direction
 
 Value is never null nor empty.
 Direction is used to place the object from the [Anchor Tile](#anchor-tile) into the especified direction.
 
-Must be a `unsigned 1-bit integer`.
-
-Possible values are `Up` or `Down`.
+Must be a `1-bit` value, representing `Up` or `Down`.
 
 #### Example
 

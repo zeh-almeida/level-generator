@@ -38,19 +38,23 @@ Must be unique across other `rooms` in order to avoid conflicts.
 
 The `width` of the `room`. It must respect the [maximum](biome_definition.md#maximum-room-size) and [minimum](biome_definition.md#minimum-room-size) requirements of the `biome`.
 
-Should be a `unsigned 8-bit integer` and must be greater than zero. If no value is specified, should use the [biome default size](biome_definition.md#minimum-room-size).
+Should be a `unsigned 16-bit integer` and must be greater than zero. If no value is specified, should use the [biome default size](biome_definition.md#minimum-room-size).
+
+The area of the `room` ([width](#width) times [height](#height))must fall between the [maximum room size](biome_definition.md#maximum-room-size) and [minimum room size](biome_definition.md#minimum-room-size) for the `biome`.
 
 ### Height
 
 The `height` of the `room`. It must respect the [maximum](biome_definition.md#maximum-room-size) and [minimum](biome_definition.md#minimum-room-size) requirements of the `biome`.
 
-Should be a `unsigned 8-bit integer` and must be greater than zero. If no value is specified, should use the [biome default size](biome_definition.md#minimum-room-size).
+Should be a `unsigned 16-bit integer` and must be greater than zero. If no value is specified, should use the [biome default size](biome_definition.md#minimum-room-size).
+
+The area of the `room` ([width](#width) times [height](#height))must fall between the [maximum room size](biome_definition.md#maximum-room-size) and [minimum room size](biome_definition.md#minimum-room-size) for the `biome`.
 
 ### Biome Name
 
 Identifies the `room`'s [biome](biome_definition.md#what-is-a-biome).
 
-Can never be null nor empty and should match an existing `biome`.
+Can never be null nor empty and should match an existing `biome` [name](biome_definition.md#name).
 
 ### Room Type Value
 
