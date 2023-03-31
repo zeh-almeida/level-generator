@@ -9,7 +9,7 @@ This allows the `Level Generator` to have more freedom of choice for `rooms`.
 
 ## Constraints
 
-## Amount of Biomes
+### Amount of Biomes
 
 The number of [biomes](../definitions/biome_definition.md#what-is-a-biome) available for generation must be greater or equal to `3`.
 
