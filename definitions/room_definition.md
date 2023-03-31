@@ -18,10 +18,15 @@ However, items must be placed on tiles and there is a limit of available tiles p
 `Rooms` have a set of properties, some of which have default values.
 All of them are required.
 
+- [•](#generation-number) Generation Number
 - [•](#width) Width
 - [•](#height) Height
 - [•](#biome-name) Biome Name
 - [•](#room-type-value) Room Type Value
+
+### Generation Number
+
+The number of the `room` in the `level`. This is a sequential number used to distinguish generational order to sort `rooms` easier.
 
 ### Width
 
