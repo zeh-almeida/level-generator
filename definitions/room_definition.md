@@ -32,6 +32,8 @@ All of them are required.
 
 The number of the `room` in the `level`. This is a sequential number used to distinguish generational order to sort `rooms` easier.
 
+Must be unique across other `rooms` in order to avoid conflicts.
+
 ### Width
 
 The `width` of the `room`. It must respect the [maximum](biome_definition.md#maximum-room-size) and [minimum](biome_definition.md#minimum-room-size) requirements of the `biome`.

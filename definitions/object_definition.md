@@ -49,6 +49,8 @@ They must be placed inside the tile they are anchored to and cannot have objects
 Value is never null nor empty.
 Value is generated when the `object` definition is registered in the `Level Generator`.
 
+Must be unique across other `objects` in order to avoid conflicts.
+
 ### Direction
 
 Value is never null nor empty.
