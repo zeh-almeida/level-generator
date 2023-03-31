@@ -1,3 +1,6 @@
+| [Definitions](README.md) |
+| ------------------------ |
+
 # Room Types
 
 ## What is a Room Type
@@ -53,3 +56,6 @@ It should be represented as:
 - `2`: [Savepoint](#savepoints)
 - `3`: [Item Giver](#item-givers)
 - `4`: [Boss Room](#boss-rooms)
+
+| [Definitions](README.md) |
+| ------------------------ |

@@ -1,3 +1,6 @@
+| [Definitions](README.md) |
+| ------------------------ |
+
 # Objects
 
 ## What is an Object
@@ -85,3 +88,6 @@ Objects that are taller than the room cannot be placed.
 ### Object Type
 
 An `Object` must have a single [object Type](object_type_definition.md#object-types). It can never be null nor empty.
+
+| [Definitions](README.md) |
+| ------------------------ |

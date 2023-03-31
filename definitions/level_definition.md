@@ -1,3 +1,6 @@
+| [Definitions](README.md) |
+| ------------------------ |
+
 # Level
 
 ## What is a Level
@@ -29,3 +32,6 @@ This gives the possibility to better choose an option when building and validati
 Ordered list of all generated `rooms` so far.
 
 The `rooms` must be ordered by their [generation number](room_definition.md#generation-number).
+
+| [Definitions](README.md) |
+| ------------------------ |

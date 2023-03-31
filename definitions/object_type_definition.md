@@ -1,3 +1,6 @@
+| [Definitions](README.md) |
+| ------------------------ |
+
 # Object Types
 
 `Objects types` define how [objects](object_definition.md#what-is-an-object) interact with the environment and the room they are located.
@@ -90,3 +93,6 @@ Terrain objects must always define their start and end tiles. This allows the `L
 ### Example
 
 If a slope has a `height of 2 tiles`, a [door](#door-objects) cannot the opened if it stays directly behind this slope. Therefore, the `Level Generator` must change the door placement to be on top of the slope.
+
+| [Definitions](README.md) |
+| ------------------------ |

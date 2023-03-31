@@ -1,3 +1,6 @@
+| [Definitions](README.md) |
+| ------------------------ |
+
 # What is a Biome
 
 `Biomes` define the type of content you expect in a [room](room_definition.md#what-is-a-room).
@@ -98,3 +101,6 @@ The biome `Forest` has the following `Afinity Map`:
 If the `Level Generator` tries to match the `Praire` biome to the `Forest` biome, the result should be `Neutral Affinity` because `Forest` biome didn't specify a relationship.
 
 `Praire` could also have an `Affinity Map` specifying this relationship with `Forest`, which could change the outcome, but not for this example.
+
+| [Definitions](README.md) |
+| ------------------------ |

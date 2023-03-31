@@ -1,3 +1,6 @@
+| [Definitions](README.md) |
+| ------------------------ |
+
 # Rooms
 
 ## What is a Room
@@ -51,3 +54,6 @@ Can never be null nor empty and should match an existing `biome`.
 Identifies the `room`'s [type](room_type_definition.md#room-types).
 
 Can never be null nor empty and should be valid for the room's current `biome`.
+
+| [Definitions](README.md) |
+| ------------------------ |
