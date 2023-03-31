@@ -42,15 +42,17 @@ They must be placed inside the tile they are anchored to and cannot have objects
 - [•](#width) Width
 - [•](#height) Height
 - [•](#object-type) Object Type
+- [•](#anchor-tile) Anchor Tile
 
 ### Object ID
 
-Value is never null nor empty: it will be given by the `Level Generator` after it is placed in the [room](room_definition.md#what-is-a-room).
+Value is never null nor empty.
+Value is generated when the `object` definition is registered in the `Level Generator`.
 
 ### Direction
 
 Value is never null nor empty.
-Direction is used to place the object from the [Anchor Coordinate](#anchor-coordinate) into the especified direction.
+Direction is used to place the object from the [Anchor Tile](#anchor-tile) into the especified direction.
 
 Must be a `unsigned 1-bit integer`.
 
@@ -88,6 +90,10 @@ Objects that are taller than the room cannot be placed.
 ### Object Type
 
 An `Object` must have a single [object Type](object_type_definition.md#object-types). It can never be null nor empty.
+
+### Anchor Tile
+
+`Tile` in the `room` used as a source point for the `object`. This marks the `0:0` coordinate of the `object`.
 
 | [Definitions](README.md) |
 | ------------------------ |

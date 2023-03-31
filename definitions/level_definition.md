@@ -25,6 +25,9 @@ This gives the possibility to better choose an option when building and validati
 
 The `level` must be aware of all available `objects`, even if some of them end up not used in the generation.
 
+While multiple instances of an `object` can exist in a single `room`, the object can only be defined once.
+The uniquess should be decided by the [Object ID](object_definition.md#object-id).
+
 This gives the possibility to better choose an option when building and validating `rooms`.
 
 ### Generated Rooms

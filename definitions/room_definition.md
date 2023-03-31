@@ -26,6 +26,7 @@ All of them are required.
 - [•](#height) Height
 - [•](#biome-name) Biome Name
 - [•](#room-type-value) Room Type Value
+- [•](#set-of-objects) Set of Objects
 
 ### Generation Number
 
@@ -54,6 +55,18 @@ Can never be null nor empty and should match an existing `biome`.
 Identifies the `room`'s [type](room_type_definition.md#room-types).
 
 Can never be null nor empty and should be valid for the room's current `biome`.
+
+### Set of Objects
+
+List of [objects](object_definition.md#what-is-an-object) placed in this room.
+Can never be null but can be empty.
+
+Multiple copies of an `object` can be placed in the `room` but their
+[Anchor Tile](object_definition.md#anchor-tile),
+[Width](object_definition.md#width),
+[Height](object_definition.md#height)
+and [Direction](object_definition.md#direction)
+properties must not overlap.
 
 | [Definitions](README.md) |
 | ------------------------ |
