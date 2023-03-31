@@ -3,7 +3,7 @@
 
 # Generation Order
 
-In order for the `level generator` to execute, an order of operations must be maintained:
+In order for the `Level Generator` to execute, an order of operations must be maintained:
 
 1. [Tile Characteristics](tiles.md#tile-characteristics)
 1. [Level Constraints](levels.md#level-constraints)
