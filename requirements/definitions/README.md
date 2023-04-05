@@ -1,4 +1,4 @@
-| [Main](../README.md) |
+| [Requirements](../README.md) |
 | -------------------- |
 
 # Definitions
@@ -67,5 +67,5 @@ A `string` is an array of characters. Most of the time, characters are represent
 
 When considering the `Level Generator`, all `characters` should use the `UTF-8` encoding exclusively.
 
-| [Main](../README.md) |
+| [Requirements](../README.md) |
 | -------------------- |
