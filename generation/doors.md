@@ -17,6 +17,8 @@ This space must be reachable by a [PC Object](../definitions/object_type_definit
 
 `Doors` and `corridors` must respect the final number of objects in the `room`. At the same time, `rooms` are required to have at least one `door` or `corridor`.
 
+## Examples
+
 ### Example 1
 
 Given a `door` that has `height = 2` and `length = 1`, place it at the leftmost corner of the `room`;

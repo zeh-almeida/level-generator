@@ -32,6 +32,8 @@ It is also possible that no object matches this criteria, so no object will be s
 
 This step can be skipped or executed as many times as the `room` has reserved slots for terrain objects.
 
+## Examples
+
 ### Example 1
 
 If a `slope` terrain object leans on the bottom left corner of the `room`, a `door` placed there will not be accessible, so this `door` should be moved to the right of the `slope`.
