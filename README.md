@@ -10,6 +10,10 @@ The project is also a testbed for me to learn the [RUST programming language](ht
 
 All the requirements for the implementation are located in [their own section](requirements/README.md).
 
+## Architecture
+
+Architectural drawings are essential to the understanding of the [requirements](#requirements), being laid out in [their own section](architecture/README.md).
+
 ## Reasoning
 
 I am not a `game developer`. I am a `backend developer`, focused on "_enterprise software_".
