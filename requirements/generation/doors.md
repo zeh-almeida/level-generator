@@ -49,5 +49,7 @@ This `door` becomes unaccesible by the `PC Object` and must be removed from the 
 
 In order to have it accessible, it should be placed either on the `floor` or `ceiling` of this `room`.
 
+#
+
 | [Previous](terrain.md) | [Next](items.md) |
 | ---------------------- | ---------------- |

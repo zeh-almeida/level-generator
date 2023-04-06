@@ -15,5 +15,7 @@ Their orientation depends on their definition. This means `items` can be placed 
 
 `Items` must respect the final number of objects in the `room`. This however does not stop the user of the end-result of the `Level Generator` to add more `items` after the process is complete.
 
+#
+
 | [Previous](doors.md) | [Next](npcs.md) |
 | -------------------- | --------------- |

@@ -1,5 +1,5 @@
 | [Requirements](../README.md) | [Next](tiles.md) |
-| -------------------- | ---------------- |
+| ---------------------------- | ---------------- |
 
 # Generation Order
 
@@ -14,5 +14,7 @@ In order for the `Level Generator` to execute, an order of operations must be ma
 1. [NPC Placement](npcs.md#npc-placement)
 1. [PC Placement](players.md#pc-placement)
 
+#
+
 | [Requirements](../README.md) | [Next](tiles.md) |
-| -------------------- | ---------------- |
+| ---------------------------- | ---------------- |

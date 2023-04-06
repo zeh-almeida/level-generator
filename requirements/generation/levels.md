@@ -41,5 +41,7 @@ The `Level Generator` must have at least `1` of each of the following [objects](
 
 Those `objects` grant a use for exploration and objective to the result of the process.
 
+#
+
 | [Previous](tiles.md) | [Next](rooms.md) |
 | -------------------- | ---------------- |

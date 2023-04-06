@@ -11,5 +11,7 @@ The `Level Generator` must validate the [tile size](../definitions/tile_definiti
 
 This value must be provided from the environment. If not supplied, assume the [default value](../definitions/tile_definition.md#tile-size).
 
+#
+
 | [Previous](README.md) | [Next](levels.md) |
 | --------------------- | ----------------- |

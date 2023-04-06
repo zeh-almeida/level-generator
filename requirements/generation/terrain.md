@@ -58,5 +58,7 @@ The `room` has a `width = 6` and `height = 6`.
 
 If a `square` terrain object of `width = 5` and `height = 5` is selected, it can only be used if at least one `door` object allows for a `height = 1`.
 
+#
+
 | [Previous](rooms.md) | [Next](doors.md) |
 | -------------------- | ---------------- |

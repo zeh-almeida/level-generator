@@ -20,5 +20,7 @@ Examples for those interactions are available:
 - [PC and Doors/Corridors](doors.md#examples)
 - [PC and Terrain](terrain.md#examples)
 
+#
+
 | [Previous](npcs.md) |
 | ------------------- |

@@ -15,5 +15,7 @@ Their orientation depends on their definition. This means `NPCs` can be placed o
 
 `NPCs` must respect the final number of objects in the `room`. This however does not stop the user of the end-result of the `Level Generator` to add more `NPCs` after the process is complete.
 
+#
+
 | [Previous](items.md) | [Next](players.md) |
 | -------------------- | ------------------ |
