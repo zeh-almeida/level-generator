@@ -36,5 +36,7 @@ Ordered list of all generated `rooms` so far.
 
 The `rooms` must be ordered by their [generation number](room_definition.md#generation-number).
 
+#
+
 | [Definitions](README.md) |
 | ------------------------ |

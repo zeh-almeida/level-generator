@@ -57,5 +57,7 @@ It should be represented as:
 - `3`: [Item Giver](#item-givers)
 - `4`: [Boss Room](#boss-rooms)
 
+#
+
 | [Definitions](README.md) |
 | ------------------------ |

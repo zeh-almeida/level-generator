@@ -95,5 +95,7 @@ An `Object` must have a single [object Type](object_type_definition.md#object-ty
 
 `Tile` in the `room` used as a source point for the `object`. This marks the `0:0` coordinate of the `object`.
 
+#
+
 | [Definitions](README.md) |
 | ------------------------ |

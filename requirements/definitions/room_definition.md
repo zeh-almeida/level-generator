@@ -76,5 +76,7 @@ properties must not overlap.
 
 The set of `objects` cannt store more items than the maximum value of a `unsigned 8-bit integer`: `255` objects in total.
 
+#
+
 | [Definitions](README.md) |
 | ------------------------ |
