@@ -6,13 +6,28 @@ Generate tile-based [levels](definitions/level_definition.md#what-is-a-level) in
 
 The project is also a testbed for me to learn the [RUST programming language](https://www.rust-lang.org/).
 
+## Roadmap
+
+In order to have the project complete, some steps must be followed:
+
+- Write the `Requirements` [✓](#requirements)
+- Design the `Architecture` [(In Progress)](#architecture)
+- Write the `Use Cases`
+- Implement the `Use Cases`
+
+While steps may be finished, they are subject to further reviews as the project matures.
+
 ## Requirements
 
 All the requirements for the implementation are located in [their own section](requirements/README.md).
 
+They should be clear enough as to explain the necessity and use of the project's capabilities.
+
 ## Architecture
 
 Architectural drawings are essential to the understanding of the [requirements](#requirements), being laid out in [their own section](architecture/README.md).
+
+This must allow readers to understand how the `requirements` interact with each other and give a more technical overview of the parts of the system.
 
 ## Reasoning
 
