@@ -37,6 +37,22 @@ Must perform the execution according to the [especification](../requirements/gen
 
 Errors should be returned to the `User` using `stderr`.
 
+### Data Communication Layer Container
+
+Abstracts the communication with the `Data Repository`.
+
+This allows the other `containers` have less knowledge about the uderlying data storage, making them simpler and easier to use.
+
+Errors must be validated and if unrecoverable, must throw specific `exceptions` to the caller.
+
+This `container` cannot be executed directly by any `user`.
+
+### Data Repository Container
+
+Stores and manages data for the `Level Generator`.
+
+It should handle the [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) paradigm for the models.
+
 #
 
 | [System Context](system.md) | [Overview](README.md) |
