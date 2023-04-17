@@ -1,5 +1,5 @@
-| [Biome Manager](component_biome.md) |
-| ----------------------------------- |
+| [Biome Manager](component_biome.md) | [Generator Executor](component_executor.md) |
+| ----------------------------------- | ------------------------------------------- |
 
 # Object Manager
 
@@ -60,5 +60,5 @@ This `manager` should handle only `object` data exclusively.
 
 #
 
-| [Biome Manager](component_biome.md) |
-| ----------------------------------- |
+| [Biome Manager](component_biome.md) | [Generator Executor](component_executor.md) |
+| ----------------------------------- | ------------------------------------------- |
