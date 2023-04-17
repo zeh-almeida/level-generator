@@ -11,13 +11,9 @@ The `Level Generator` is a `software system` and therefore can be defined as the
 
 ### Biome Manager Container
 
-Accessible via a [Command Line Interface](https://en.wikipedia.org/wiki/Command-line_interface).
+This `Container` is responsible for managing all [Biome](../requirements/definitions/biome_definition.md) data in the system.
 
-Enables [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) for [biome](../requirements/definitions/biome_definition.md) data.
-
-Should perform all validations according to the `especifications`.
-
-Errors should be returned to the `User` using `stderr`.
+It is detailed [here](component_biome.md).
 
 ### Object Manager Container
 
