@@ -1,13 +1,13 @@
-| [Container](container.md) | [Object Manager](component_object.md) |
-| ------------------------- | ------------------------------------- |
+| [Biome Manager](component_biome.md) |
+| ----------------------------------- |
 
-# Biome Manager
+# Object Manager
 
-![Component Diagram](diagrams/imgs/component_biome_manager.png)
+![Component Diagram](diagrams/imgs/component_object_manager.png)
 
 ## Breakdown
 
-This `Container` enables [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) for [biome](../requirements/definitions/biome_definition.md) data.
+This `Container` enables [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) for [object](../requirements/definitions/object_definition.md) data.
 
 It must be accessible via a [Command Line Interface](https://en.wikipedia.org/wiki/Command-line_interface).
 
@@ -16,7 +16,7 @@ It must be accessible via a [Command Line Interface](https://en.wikipedia.org/wi
 1. [•](#cli-controller) CLI Controller
 1. [•](#model-validator) Model Validator
 1. [•](#log-manager) Log Manager
-1. [•](#biome-models) `Biome` Models
+1. [•](#object-models) `Object` Models
 1. [•](#data-manager) Data Manager
 
 ## CLI Controller
@@ -27,7 +27,7 @@ Must interpret user input as well as provide useful output in a `CLI-friendly` f
 
 ## Model Validator
 
-Makes sure all `Biome` data is valid as specified in the [documentation](../requirements/definitions/biome_definition.md).
+Makes sure all `Object` data is valid as specified in the [documentation](../requirements/definitions/object_definition.md).
 
 `Models` are received via the service `caller`.
 
@@ -43,23 +43,22 @@ This is very important for debugging and making sure the application is running 
 
 In order to make `logging` transparent to the `Component`, this `Manager` should maintain all configurations and issue `loggers` when requested.
 
-## Biome Models
+## Object Models
 
 Contains the definitions of all the `models` used by this `Component`.
 
 This must include:
 
-- `Biome Model` definition
-- `Affinity` definition
-- `Biome` relationships
+- [Object definition](../requirements/definitions/object_definition.md)
+- [Object Type definition](../requirements/definitions/object_type_definition.md)
 
 ## Data Manager
 
 Communicates with the `Data Communication Layer` in order to persist, retrieve or revome data.
 
-This `manager` should handle only `biome` data exclusively.
+This `manager` should handle only `object` data exclusively.
 
 #
 
-| [Container](container.md) | [Object Manager](component_object.md) |
-| ------------------------- | ------------------------------------- |
+| [Biome Manager](component_biome.md) |
+| ----------------------------------- |
