@@ -1,5 +1,5 @@
-| [Object Manager](component_object.md) |
-| ------------------------------------- |
+| [Component: Object Manager](component_object.md) |
+| ------------------------------------------------ |
 
 # Generator Executor
 
@@ -92,5 +92,5 @@ This `manager` should handle only `object` data exclusively.
 
 #
 
-| [Object Manager](component_object.md) |
-| ------------------------------------- |
+| [Component: Object Manager](component_object.md) |
+| ------------------------------------------------ |

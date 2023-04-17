@@ -1,5 +1,5 @@
-| [Container](container.md) | [Object Manager](component_object.md) |
-| ------------------------- | ------------------------------------- |
+| [Container](container.md) | [Component: Object Manager](component_object.md) |
+| ------------------------- | ------------------------------------------------ |
 
 # Biome Manager
 
@@ -61,5 +61,5 @@ This `manager` should handle only `biome` data exclusively.
 
 #
 
-| [Container](container.md) | [Object Manager](component_object.md) |
-| ------------------------- | ------------------------------------- |
+| [Container](container.md) | [Component: Object Manager](component_object.md) |
+| ------------------------- | ------------------------------------------------ |
