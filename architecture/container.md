@@ -11,27 +11,21 @@ The `Level Generator` is a `software system` and therefore can be defined as the
 
 ### Biome Manager Container
 
-This `Container` is responsible for managing all [Biome](../requirements/definitions/biome_definition.md) data in the system.
+`Container` responsible for managing all [Biome](../requirements/definitions/biome_definition.md) data in the system.
 
 It is detailed [here](component_biome.md).
 
 ### Object Manager Container
 
-Accessible via a [Command Line Interface](https://en.wikipedia.org/wiki/Command-line_interface).
+`Container` responsible for managing all [Object](../requirements/definitions/object_definition.md) data in the system.
 
-Enables [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) for [object](../requirements/definitions/object_definition.md) data.
-
-Should perform all validations according to the [especifications](../requirements/generation/rooms.md).
-
-Errors should be returned to the `User` using `stderr`.
+It is detailed [here](component_object.md).
 
 ### Generator Executor Container
 
-Accessible via a [Command Line Interface](https://en.wikipedia.org/wiki/Command-line_interface).
+`Container` responsible for generating the `Level` according to the [especification](../requirements/generation/levels.md).
 
-Must perform the execution according to the [especification](../requirements/generation/README.md), making sure to respect the ordering, validations and due process of the generation.
-
-Errors should be returned to the `User` using `stderr`.
+It is detailed [here](component_executor.md).
 
 ### Data Communication Layer Container
 
