@@ -1,5 +1,5 @@
-| [Main](../README.md) |
-| -------------------- |
+| [Main](../README.md) | [Biome Manager](biome_manager.md) |
+| -------------------- | --------------------------------- |
 
 # User Stories
 
@@ -14,23 +14,23 @@ This document aggregates those `stories`.
 - [•](#generator-executor) Generator Executor
 - [•](#data-communication-layer) Data Communication Layer
 
-## Biome Manager
+## Biome Manager [•](biome_manager.md)
 
 **WIP**
 
-## Object Manager
+## Object Manager [•](object_manager.md)
 
 **WIP**
 
-## Generator Executor
+## Generator Executor [•](generator_executor.md)
 
 **WIP**
 
-## Data Communication Layer
+## Data Communication Layer [•](data_communication_layer.md)
 
 **WIP**
 
 #
 
-| [Main](../README.md) |
-| -------------------- |
+| [Main](../README.md) | [Biome Manager](biome_manager.md) |
+| -------------------- | --------------------------------- |
