@@ -11,6 +11,8 @@ Because of the complexity of such translations, it is often useful for systems t
 
 The method used for this translation is the [C4 Model](https://c4model.com/).
 
+## Index
+
 - [•](system.md) System Context
 - [•](container.md) Containers
 - Components:

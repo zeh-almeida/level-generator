@@ -11,9 +11,9 @@ The project is also a testbed for me to learn the [RUST programming language](ht
 In order to have the project complete, some steps must be followed:
 
 - Write the `Requirements` [✓](#requirements)
-- Design the `Architecture` [(In Progress)](#architecture)
-- Write the `Use Cases`
-- Implement the `Use Cases`
+- Design the `Architecture` [✓](#architecture)
+- Write the `User Stories` [(In Progress)](#user-stories)
+- Implement the `User Stories`
 
 While steps may be finished, they are subject to further reviews as the project matures.
 
@@ -29,7 +29,15 @@ Architectural drawings are essential to the understanding of the [requirements](
 
 This must allow readers to understand how the `requirements` interact with each other and give a more technical overview of the parts of the system.
 
-## Reasoning
+## User Stories
+
+Once the [requirements](#requirements) and [architecture](#architecture) are known and understood, one can break them down into the [User Stories](https://en.wikipedia.org/wiki/User_story).
+
+The current list of `user Stories` is laid [here](user_stories/README.md).
+
+## Miscellaneous
+
+### Reasoning
 
 I am not a `game developer`. I am a `backend developer`, focused on "_enterprise software_".
 
@@ -39,7 +47,7 @@ Even so, I want to challenge myself: I want to try and make something that uses 
 
 Here is hope.
 
-## Credits
+### Credits
 
 I have to thank [ThatGuyGlen](https://www.youtube.com/@ThatGuyGlen/) for their [breakdown on how Dead Cells was made](https://youtu.be/0MY03yNkuFI).
 When they talked about level generation, I suddenly got the idea that _hey, I can do that!_
