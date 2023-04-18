@@ -1,5 +1,5 @@
-| [Previous](README.md) | [Container](container.md) |
-| --------------------- | ------------------------- |
+| [Architecture Overview](README.md) | [Container](container.md) |
+| ---------------------------------- | ------------------------- |
 
 # System Context
 
@@ -29,5 +29,5 @@ Implements the necessary [requirements](../requirements/README.md) in order to e
 
 #
 
-| [Previous](README.md) | [Container](container.md) |
-| --------------------- | ------------------------- |
+| [Architecture Overview](README.md) | [Container](container.md) |
+| ---------------------------------- | ------------------------- |

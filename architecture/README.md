@@ -13,6 +13,11 @@ The method used for this translation is the [C4 Model](https://c4model.com/).
 
 - [•](system.md) System Context
 - [•](container.md) Containers
+- Components:
+  - [•](component_biome.md) Biome Manager
+  - [•](component_object.md) Object Manager
+  - [•](component_executor.md) Generator Executor
+  - [•](component_data_layer.md) Data Communication Layer
 
 #
 
