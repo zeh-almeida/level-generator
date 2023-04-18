@@ -7,7 +7,7 @@
 
 ## Breakdown
 
-This `Container` enables [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) for [biome](../requirements/definitions/biome_definition.md) data.
+This `Component` enables [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) for [biome](../requirements/definitions/biome_definition.md) data.
 
 It must be accessible via a [Command Line Interface](https://en.wikipedia.org/wiki/Command-line_interface).
 

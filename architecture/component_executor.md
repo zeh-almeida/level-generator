@@ -1,5 +1,5 @@
-| [Component: Object Manager](component_object.md) |
-| ------------------------------------------------ |
+| [Component: Object Manager](component_object.md) | [Component: Data Communication Layer](component_data_layer.md) |
+| ------------------------------------------------ | -------------------------------------------------------------- |
 
 # Generator Executor
 
@@ -7,7 +7,7 @@
 
 ## Breakdown
 
-This `Container` performs all the necessary spets for a level generation to take place.
+This `Component` performs all the necessary steps for a level generation to take place.
 
 It must be accessible via a [Command Line Interface](https://en.wikipedia.org/wiki/Command-line_interface).
 
@@ -92,5 +92,5 @@ This `manager` should handle only `object` data exclusively.
 
 #
 
-| [Component: Object Manager](component_object.md) |
-| ------------------------------------------------ |
+| [Component: Object Manager](component_object.md) | [Component: Data Communication Layer](component_data_layer.md) |
+| ------------------------------------------------ | -------------------------------------------------------------- |
