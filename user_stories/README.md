@@ -16,7 +16,7 @@ This document aggregates those `stories`.
 
 ## Biome Manager [•](biome_manager.md)
 
-**WIP**
+- [Creation Stories](biome_manager.md#biome-creation-stories)
 
 ## Object Manager [•](object_manager.md)
 
