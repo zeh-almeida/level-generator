@@ -29,6 +29,8 @@
 
   At the end, the `Biome Manager` must list which `inputs` were successful and which `inputs` failed, together with their respective `error messages`.
 
+  Each entry must be separated by `a new line`, according to the environment: `Windows = CR/LF`, `*nix = LF`
+
 #
 
 | [User Stories](README.md) | [Object Manager](object_manager.md) |
