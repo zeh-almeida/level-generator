@@ -9,14 +9,14 @@ This document aggregates those `stories`.
 
 ## Index
 
-- [•](#biome-manager-) Biome Manager
+- [•](#biome-manager) Biome Manager
 - [•](#object-manager-) Object Manager
 - [•](#generator-executor-) Generator Executor
 - [•](#data-communication-layer-) Data Communication Layer
 
-## Biome Manager [•](biome_manager.md)
+## Biome Manager
 
-- [Creation Stories](biome_manager.md#biome-creation-stories)
+- [Creation Stories](biome_manager/creation.md)
 
 ## Object Manager [•](object_manager.md)
 

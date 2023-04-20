@@ -1,9 +1,9 @@
-| [User Stories](README.md) | [Object Manager](object_manager.md) |
+| [User Stories](../README.md) | [Object Manager](../object_manager.md) |
 | ------------------------- | ----------------------------------- |
 
 # Biome Manager
 
-Stories must follow the [requirements](../requirements/definitions/biome_definition.md).
+Stories must follow the [requirements](../../requirements/definitions/biome_definition.md).
 
 ## Biome Creation Stories
 
@@ -63,5 +63,5 @@ Stories must follow the [requirements](../requirements/definitions/biome_definit
 
 #
 
-| [User Stories](README.md) | [Object Manager](object_manager.md) |
+| [User Stories](../README.md) | [Object Manager](../object_manager.md) |
 | ------------------------- | ----------------------------------- |
