@@ -3,7 +3,9 @@
 
 # Biome Selection Stories
 
-Stories must follow the [requirements](../../requirements/definitions/biome_definition.md).
+Stories must follow the [requirements](../../requirements/definitions/biome_definition.md) and [architecture](../../architecture/README.md).
+
+## Stories
 
 ## Acceptance Criteria
 

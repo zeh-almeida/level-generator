@@ -3,7 +3,9 @@
 
 # Biome Creation Stories
 
-Stories must follow the [requirements](../../requirements/definitions/biome_definition.md).
+Stories must follow the [requirements](../../requirements/definitions/biome_definition.md) and [architecture](../../architecture/README.md).
+
+## Stories
 
 - As a `Biome Maintainer`, I want to `Create Biomes` in order to have them available for `Level Generation`;
 
