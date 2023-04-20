@@ -1,11 +1,9 @@
-| [User Stories](../README.md) | [Object Manager](../object_manager.md) |
-| ------------------------- | ----------------------------------- |
+| [User Stories](../README.md) | [Biome Selection Stories](selection.md) |
+| ---------------------------- | --------------------------------------- |
 
-# Biome Manager
+# Biome Creation Stories
 
 Stories must follow the [requirements](../../requirements/definitions/biome_definition.md).
-
-## Biome Creation Stories
 
 - As a `Biome Maintainer`, I want to `Create Biomes` in order to have them available for `Level Generation`;
 
@@ -13,7 +11,7 @@ Stories must follow the [requirements](../../requirements/definitions/biome_defi
 
 - As a `Biome Maintainer`, I want to `create multiple Biomes at the same time`;
 
-### Acceptance Criteria
+## Acceptance Criteria
 
 - Given a `Biome name` that `is longer than 50 characters` when `creating the Biome` then the `Biome Manager` must `respond with an error`.
 
@@ -63,5 +61,5 @@ Stories must follow the [requirements](../../requirements/definitions/biome_defi
 
 #
 
-| [User Stories](../README.md) | [Object Manager](../object_manager.md) |
-| ------------------------- | ----------------------------------- |
+| [User Stories](../README.md) | [Biome Selection Stories](selection.md) |
+| ---------------------------- | --------------------------------------- |
