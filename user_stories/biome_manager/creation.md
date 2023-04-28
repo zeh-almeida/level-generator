@@ -31,19 +31,19 @@ Stories must follow the [requirements](../../requirements/definitions/biome_defi
 
   The `input` must be trimmed of all `white spaces` at the beginning and the end before validation.
 
-  The `error` must contain the code `BE-003` with the message `Biome name is empty`.
+  The `error` must contain the code `BE-002` with the message `Biome name is empty`.
 
 - Given a `Biome name with non-alphanumeric characters` when `creating the Biome` then the `Biome Manager` must `respond with an error`.
 
   The `input` must be trimmed of all `white spaces` at the beginning and the end before validation.
 
-  The `error` must contain the code `BE-004` with the message `Biome name must be alphanumeric`.
+  The `error` must contain the code `BE-003` with the message `Biome name must be alphanumeric`.
 
 - Given a `Biome name with alphanumeric characters and between 1 and 50 characters in length` when `creating the Biome` then the `Biome Manager` must check `if the Biome already exists`.
 
   The `input` must be trimmed of all `white spaces` at the beginning and the end before validation.
 
-  If `another Biome with the same name ignoring case exists` the `Biome Manager` must raise an `error` with code `BE-005` with the message `Biome already exists: '<NAME>'` where `<NAME>` is the `input` value.
+  If `another Biome with the same name ignoring case exists` the `Biome Manager` must raise an `error` with code `BE-004` with the message `Biome already exists: '<NAME>'` where `<NAME>` is the `input` value.
 
 - Given a `Biome name with alphanumeric characters and between 1 and 50 characters in length` when `creating the Biome` and `no Biome exists with the same name` then the `Biome Manager` must `persist the model` and `respond with a success message`.
 
@@ -55,11 +55,85 @@ Stories must follow the [requirements](../../requirements/definitions/biome_defi
 
   At the end, the `Biome Manager` must list which `inputs` were successful and which `inputs` failed, together with their respective `error messages`.
 
-  Each entry must be separated by `a new line`, according to the environment: `Windows = CR/LF`, `*nix = LF`.
+  Each entry must be separated by `a blank space`.
 
   Each entry must be trimmed of all `white spaces` at the beginning and the end before validation.
 
   An `empty line` is considered the `end of the input`.
+
+## Contracts
+
+### Single Item
+
+#### Success path
+Input:
+```
+test
+```
+
+Output:
+```
+BS-001 | Biome created: 'test'
+```
+
+#### Error path 1
+Input:
+```
+abcdefghijklmnopqrstuwxyz0123456789ABCDEFGHIJKLMNO
+```
+
+Output:
+```
+BE-001 | Biome name must be 50 characters or less
+```
+
+#### Error path 2
+Input:
+```
+
+```
+
+Output:
+```
+BE-002 | Biome name is empty
+```
+
+#### Error path 3
+Input:
+```
+test!
+```
+
+Output:
+```
+BE-003 | Biome name must be alphanumeric
+```
+
+#### Error path 4
+Input:
+```
+test test
+```
+
+Output:
+```
+BS-001 | Biome created: 'test'
+BE-004 | Biome already exists: 'test'
+```
+
+### Multiple Items
+
+Input:
+```
+multi1 multi2 multi3
+```
+
+Output:
+```
+BS-001 | Biome created: 'multi1'
+BS-001 | Biome created: 'multi2'
+BS-001 | Biome created: 'multi3'
+```
 
 #
 
