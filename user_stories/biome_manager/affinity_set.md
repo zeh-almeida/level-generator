@@ -13,11 +13,11 @@ biome affinity set
 
 ## Stories
 
-- As a `Biome Maintainer`, I want to `set the affinity level of two Biomes` with `their exact names`;
+- As a `Biome Maintainer`, I want to `set the affinity level of two Biomes` when I supply `their exact names`;
 
 ## Acceptance Criteria
 
-- Given `any input` that `is empty or white space only` when `maintaining Biome affinity` and `regardless of the modifier` then the `Biome Manager` must `respond with an error`.
+- Given `any input` that `is empty or white space only` when `setting Biome affinity` then the `Biome Manager` must `respond with an error`.
 
   The `error` must contain the code `BE-006` with the message `Biome name must be given`.
 
@@ -29,13 +29,15 @@ biome affinity set
 
   If no `affinity level` is supplied, it is assumed as `neutral`.
 
-- Given `one of the inputs does not have a Biome match` when `setting Biome affinity` then the `Biome Manager` must `respond with an error`.
+- Given `at least one of the inputs does not match an existing Biome` when `setting Biome affinity` then the `Biome Manager` must `respond with an error`.
 
   `Any input` must be trimmed of all `white spaces` at the beginning and the end before validation.
 
-  The `error` must contain the code `BE-008` with the message `Biome was not found` and the `input supplied`.
+  The `error` must contain the code `BE-008` with the message `Biome was not found` and the `unmatched input`.
 
 ## Contracts
+
+WIP
 
 #
 
