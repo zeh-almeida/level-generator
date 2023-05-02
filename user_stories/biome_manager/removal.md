@@ -1,5 +1,5 @@
-| [Biome Single Selection Stories](selection_single.md) | [User Stories](../README.md) |
-| ----------------------------------------------------- | ---------------------------- |
+| [Biome Single Selection Stories](selection_single.md) | [Biome Affinity Stories](affinity.md) |
+| ----------------------------------------------------- | ------------------------------------- |
 
 # Biome Removal Stories
 
@@ -141,5 +141,5 @@ BS-002: Biome removed successfully
 
 #
 
-| [Biome Single Selection Stories](selection_single.md) | [User Stories](../README.md) |
-| ----------------------------------------------------- | ---------------------------- |
+| [Biome Single Selection Stories](selection_single.md) | [Biome Affinity Stories](affinity.md) |
+| ----------------------------------------------------- | ------------------------------------- |
