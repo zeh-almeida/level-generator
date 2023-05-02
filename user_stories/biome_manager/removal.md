@@ -25,7 +25,7 @@ biome remove
 
 - Given `multiple matching biomes` when `selecting single Biomes` then the `Biome Manager` must `respond with an error`.
 
-  The `response` must list all `biomes matching the input`
+  The `response` must list all `biomes matching the input`.
 
   The `error` must contain the code `BE-007` with the message `multiple biomes match the criteria`.
 
@@ -45,7 +45,7 @@ biome remove
   If the `Regular Expression` is not valid, then the `Biome Manager` must `respond with an error`.
   The `error` must contain the code `BE-005` with the message `Biome name expression is invalid`.
 
-  If no `Biome` is found with the desired name then the `Biome Manager` must `respond with an error`.
+  If no `Biome` is found with the `matching name` then the `Biome Manager` must `respond with an error`.
   The `error` must contain the code `BE-008` with the message `Biome was not found`.
 
   If a `Biome` is found with the matching `input` then the `Biome Manager` must `show the full list of affinities of this Biome` and then `remove it`. `Biome Manager` should also output a message with code `BS-002` and content `Biome removed successfully`.
