@@ -17,8 +17,8 @@ This document aggregates those `stories`.
 ## Biome Manager
 
 - [Creation Stories](biome_manager/creation.md)
-- [Single Selection Stories](biome_manager/selection_single.md)
 - [Multi Selection Stories](biome_manager/selection_multi.md)
+- [Single Selection Stories](biome_manager/selection_single.md)
 
 ## Object Manager [•](object_manager.md)
 
