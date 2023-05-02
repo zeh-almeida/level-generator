@@ -1,5 +1,5 @@
-| [Biome Multi Selection Stories](selection_multi.md) | [User Stories](../README.md) |
-| --------------------------------------------------- | ---------------------------- |
+| [Biome Multi Selection Stories](selection_multi.md) | [Biome Removal Stories](removal.md) |
+| --------------------------------------------------- | ----------------------------------- |
 
 # Biome Single Selection Stories
 
@@ -133,5 +133,5 @@ BE-006: Biome name must be given
 
 #
 
-| [Biome Multi Selection Stories](selection_multi.md) | [User Stories](../README.md) |
-| --------------------------------------------------- | ---------------------------- |
+| [Biome Multi Selection Stories](selection_multi.md) | [Biome Removal Stories](removal.md) |
+| --------------------------------------------------- | ----------------------------------- |
