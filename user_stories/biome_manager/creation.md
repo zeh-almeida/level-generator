@@ -1,5 +1,5 @@
-| [User Stories](../README.md) | [Biome Selection Stories](selection.md) |
-| ---------------------------- | --------------------------------------- |
+| [User Stories](../README.md) | [Biome Single Selection Stories](selection_single.md) |
+| ---------------------------- | ----------------------------------------------------- |
 
 # Biome Creation Stories
 
@@ -66,56 +66,71 @@ Stories must follow the [requirements](../../requirements/definitions/biome_defi
 ### Single Item
 
 #### Success path
+
 Input:
+
 ```
 test
 ```
 
 Output:
+
 ```
 BS-001 | Biome created: 'test'
 ```
 
 #### Error path 1
+
 Input:
+
 ```
 abcdefghijklmnopqrstuwxyz0123456789ABCDEFGHIJKLMNO
 ```
 
 Output:
+
 ```
 BE-001 | Biome name must be 50 characters or less
 ```
 
 #### Error path 2
+
 Input:
+
 ```
 
 ```
 
 Output:
+
 ```
 BE-002 | Biome name is empty
 ```
 
 #### Error path 3
+
 Input:
+
 ```
 test!
 ```
 
 Output:
+
 ```
 BE-003 | Biome name must be alphanumeric
 ```
 
 #### Error path 4
+
 Input:
+
 ```
 test test
 ```
 
 Output:
+
 ```
 BS-001 | Biome created: 'test'
 BE-004 | Biome already exists: 'test'
@@ -124,11 +139,13 @@ BE-004 | Biome already exists: 'test'
 ### Multiple Items
 
 Input:
+
 ```
 multi1 multi2 multi3
 ```
 
 Output:
+
 ```
 BS-001 | Biome created: 'multi1'
 BS-001 | Biome created: 'multi2'
@@ -137,5 +154,5 @@ BS-001 | Biome created: 'multi3'
 
 #
 
-| [User Stories](../README.md) | [Biome Selection Stories](selection.md) |
-| ---------------------------- | --------------------------------------- |
+| [User Stories](../README.md) | [Biome Single Selection Stories](selection_single.md) |
+| ---------------------------- | ----------------------------------------------------- |

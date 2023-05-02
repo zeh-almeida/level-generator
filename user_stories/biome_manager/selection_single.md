@@ -1,5 +1,5 @@
-| [Biome Creation Stories](creation.md) | [User Stories](../README.md) |
-| ------------------------------------- | ---------------------------- |
+| [Biome Creation Stories](creation.md) | [Biome Multi Selection Stories](selection_multi.md) |
+| ------------------------------------- | --------------------------------------------------- |
 
 # Biome Selection Stories
 
@@ -134,5 +134,5 @@ BE-005: Biome name expression is invalid
 
 #
 
-| [Biome Creation Stories](creation.md) | [User Stories](../README.md) |
-| ------------------------------------- | ---------------------------- |
+| [Biome Creation Stories](creation.md) | [Biome Multi Selection Stories](selection_multi.md) |
+| ------------------------------------- | --------------------------------------------------- |
