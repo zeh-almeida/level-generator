@@ -5,6 +5,12 @@
 
 Stories must follow the [requirements](../../requirements/definitions/biome_definition.md) and [architecture](../../architecture/README.md).
 
+The execution of the following stories expect the execution of the `CLI` command:
+
+```
+biome remove
+```
+
 ## Stories
 
 - As a `Biome Maintainer`, I want to `remove a single Biome and all its affinity data`;

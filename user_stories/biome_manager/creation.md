@@ -5,6 +5,12 @@
 
 Stories must follow the [requirements](../../requirements/definitions/biome_definition.md) and [architecture](../../architecture/README.md).
 
+The execution of the following stories expect the execution of the `CLI` command:
+
+```
+biome create
+```
+
 ## Stories
 
 - As a `Biome Maintainer`, I want to `Create Biomes` in order to have them available for `Level Generation`;
