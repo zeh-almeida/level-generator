@@ -43,6 +43,95 @@ Stories must follow the [requirements](../../requirements/definitions/biome_defi
 
   One or more models can be returned.
 
+## Contracts
+
+### Exact Match
+
+#### Match found
+
+Input:
+
+```
+test
+```
+
+Output:
+
+```
+Biome: test
+
+Link  Affinity
+----  --------
+test1 Positive
+test2 Negative
+test3 Negative
+test4 Positive
+test5 Positive
+```
+
+#### Match not found
+
+Input:
+
+```
+test6
+```
+
+Output:
+
+```
+
+```
+
+### Multiple Matches
+
+#### Match found
+
+Input:
+
+```
+test*
+```
+
+Output:
+
+```
+test
+test1
+test2
+test3
+test4
+test5
+```
+
+#### Match not found
+
+Input:
+
+```
+*test0*
+```
+
+Output:
+
+```
+
+```
+
+#### Invalid expression
+
+Input:
+
+```
+,[
+```
+
+Output:
+
+```
+BE-005: Biome name expression is invalid
+```
+
 #
 
 | [Biome Creation Stories](creation.md) | [User Stories](../README.md) |
