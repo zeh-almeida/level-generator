@@ -1,7 +1,7 @@
 | [Biome Creation Stories](creation.md) | [Biome Single Selection Stories](selection_single.md) |
 | ------------------------------------- | ----------------------------------------------------- |
 
-# Biome Selection Stories
+# Biome Multi Selection Stories
 
 Stories must follow the [requirements](../../requirements/definitions/biome_definition.md) and [architecture](../../architecture/README.md).
 
@@ -26,8 +26,6 @@ Stories must follow the [requirements](../../requirements/definitions/biome_defi
   The `input` must be trimmed of all `white spaces` at the beginning and the end before validation.
 
   If no `Biome` is found with the desired name, nothing should be returned.
-
-  Only one model can be returned.
 
 - Given a `Regular Expression` when `selecting Biomes` then the `Biome Manager` must `search for partial matches`.
 

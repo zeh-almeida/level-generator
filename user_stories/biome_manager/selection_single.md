@@ -1,31 +1,31 @@
 | [Biome Multi Selection Stories](selection_multi.md) | [User Stories](../README.md) |
 | --------------------------------------------------- | ---------------------------- |
 
-# Biome Selection Stories
+# Biome Single Selection Stories
 
 Stories must follow the [requirements](../../requirements/definitions/biome_definition.md) and [architecture](../../architecture/README.md).
 
 ## Stories
 
-- As a `Biome Maintainer`, I want to `list all existing Biomes`;
+- As a `Biome Maintainer`, I want to `select a single Biome and know its data` when I `execute the selection` with the `selection modifier`;
 
-- As a `Biome Maintainer`, I want to `search Biomes by exact name`;
-
-- As a `Biome Maintainer`, I want to `search Biomes by a Regular Expression`;
+- As a `Biome Maintainer`, I want to `search Biomes by a Regular Expression` when I `execute the selection` with the `selection modifier`;
 
 ## Acceptance Criteria
 
-- Given a `input` that `is empty or white space only` when `selecting a Biome` then the `Biome Manager` must `perform a full selection`.
+- Given the `search for a single Biome` then the `User` must provide the `-s` or `--single` modifier before the input.
+
+- Given a `input` that `is empty or white space only` when `selecting single Biomes` then the `Biome Manager` must `respond with an error`.
 
   The `input` must be trimmed of all `white spaces` at the beginning and the end before validation.
 
-- Given `multiple results` when `selecting a Biome` then the `Biome Manager` must `order Biome names alphabetically`.
+  The `error` must contain the code `BE-006` with the message `Biome name must be given`.
 
-- Given a `selected Biome` when `selecting one Biome` then the `Biome Manager` must `show the Biome name and affinities`.
+- Given `multiple matching biomes` when `selecting single Biomes` then the `Biome Manager` must `show the first matching Biome only`.
 
-- Given a `selected Biome` when `selecting all Biomes` then the `Biome Manager` must `show the Biome names only`.
+- Given `a Biome model` when `selecting single Biomes` then the `Biome Manager` must `show the full list of affinities of the Biome`.
 
-- Given a `input with alphanumeric characters only` and `with at least one character in length` when `selecting Biomes` then the `Biome Manager` must `search for an exact match`.
+- Given a `input with alphanumeric characters only` and `with at least one character in length` when `selecting Biomes` then the `Biome Manager` must `be used as a regular expression`.
 
   The `input` must be trimmed of all `white spaces` at the beginning and the end before validation.
 
@@ -33,7 +33,7 @@ Stories must follow the [requirements](../../requirements/definitions/biome_defi
 
   Only one model can be returned.
 
-- Given a `Regular Expression` when `selecting Biomes` then the `Biome Manager` must `search for partial matches`.
+- Given a `Regular Expression` when `selecting single Biomes` then the `Biome Manager` must `search for partial matches`.
 
   The `input` must be trimmed of all `white spaces` at the beginning and the end before validation.
 
@@ -45,14 +45,12 @@ Stories must follow the [requirements](../../requirements/definitions/biome_defi
 
 ## Contracts
 
-### Exact Match
-
-#### Match found
+### Alphanumeric only
 
 Input:
 
 ```
-test
+-s test
 ```
 
 Output:
@@ -69,12 +67,34 @@ test4 Positive
 test5 Positive
 ```
 
-#### Match not found
+### Match found
 
 Input:
 
 ```
-test6
+-s test*
+```
+
+Output:
+
+```
+Biome: test
+
+Link  Affinity
+----  --------
+test1 Positive
+test2 Negative
+test3 Negative
+test4 Positive
+test5 Positive
+```
+
+### Match not found
+
+Input:
+
+```
+-s *test0*
 ```
 
 Output:
@@ -83,53 +103,32 @@ Output:
 
 ```
 
-### Multiple Matches
-
-#### Match found
+### Invalid expression
 
 Input:
 
 ```
-test*
-```
-
-Output:
-
-```
-test
-test1
-test2
-test3
-test4
-test5
-```
-
-#### Match not found
-
-Input:
-
-```
-*test0*
-```
-
-Output:
-
-```
-
-```
-
-#### Invalid expression
-
-Input:
-
-```
-,[
+-s ,[
 ```
 
 Output:
 
 ```
 BE-005: Biome name expression is invalid
+```
+
+### Invalid input
+
+Input:
+
+```
+-s
+```
+
+Output:
+
+```
+BE-006: Biome name must be given
 ```
 
 #
