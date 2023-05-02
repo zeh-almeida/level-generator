@@ -20,7 +20,9 @@ This document aggregates those `stories`.
 - [Multi Selection Stories](biome_manager/selection_multi.md)
 - [Single Selection Stories](biome_manager/selection_single.md)
 - [Removal Stories](biome_manager/removal.md)
-- [Affinity Stories](biome_manager/affinity.md)
+- [Biome Affinity Set Stories](biome_manager/affinity_set.md)
+- [Biome Affinity Remove Stories](biome_manager/affinity_remove.md)
+- [Biome Affinity Check Stories](biome_manager/affinity_check.md)
 
 ## Object Manager [•](object_manager.md)
 
