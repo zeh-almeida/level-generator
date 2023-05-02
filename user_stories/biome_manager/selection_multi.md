@@ -9,8 +9,6 @@ Stories must follow the [requirements](../../requirements/definitions/biome_defi
 
 - As a `Biome Maintainer`, I want to `list all existing Biomes`;
 
-- As a `Biome Maintainer`, I want to `search Biomes by exact name`;
-
 - As a `Biome Maintainer`, I want to `search Biomes by a Regular Expression`;
 
 ## Acceptance Criteria
@@ -21,11 +19,9 @@ Stories must follow the [requirements](../../requirements/definitions/biome_defi
 
 - Given `multiple results` when `selecting a Biome` then the `Biome Manager` must `order Biome names alphabetically`.
 
-- Given a `selected Biome` when `selecting one Biome` then the `Biome Manager` must `show the Biome name and affinities`.
+- Given `multiple results` when `selecting all Biomes` then the `Biome Manager` must `show the Biome names only`.
 
-- Given a `selected Biome` when `selecting all Biomes` then the `Biome Manager` must `show the Biome names only`.
-
-- Given a `input with alphanumeric characters only` and `with at least one character in length` when `selecting Biomes` then the `Biome Manager` must `search for an exact match`.
+- Given a `input with alphanumeric characters only` and `with at least one character in length` when `selecting Biomes` then the `Biome Manager` must `be used as a regular expression`.
 
   The `input` must be trimmed of all `white spaces` at the beginning and the end before validation.
 
@@ -45,9 +41,7 @@ Stories must follow the [requirements](../../requirements/definitions/biome_defi
 
 ## Contracts
 
-### Exact Match
-
-#### Match found
+### Alphanumeric only
 
 Input:
 
@@ -58,34 +52,10 @@ test
 Output:
 
 ```
-Biome: test
-
-Link  Affinity
-----  --------
-test1 Positive
-test2 Negative
-test3 Negative
-test4 Positive
-test5 Positive
+test
 ```
 
-#### Match not found
-
-Input:
-
-```
-test6
-```
-
-Output:
-
-```
-
-```
-
-### Multiple Matches
-
-#### Match found
+### Match found
 
 Input:
 
@@ -104,7 +74,7 @@ test4
 test5
 ```
 
-#### Match not found
+### Match not found
 
 Input:
 
@@ -118,7 +88,7 @@ Output:
 
 ```
 
-#### Invalid expression
+### Invalid expression
 
 Input:
 
