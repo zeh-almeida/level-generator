@@ -35,6 +35,22 @@ Once the [requirements](#requirements) and [architecture](#architecture) are kno
 
 The current list of `user Stories` is laid [here](user_stories/README.md).
 
+## How to Use
+
+This project should be used as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+
+This way, the documentation is part of the implementation and can be tracked to specific commits.
+
+This allows for easier maintenance as well as validation of the overall implementation.
+
+When used as a `submodule`, the only section that may be ommited is the [Miscellaneous](#miscellaneous).
+
+## Contribution
+
+Contributions are welcome.
+
+Send a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and it will be reviewed for merge.
+
 ## Miscellaneous
 
 ### Reasoning
