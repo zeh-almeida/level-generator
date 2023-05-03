@@ -29,6 +29,12 @@ biome affinity set
 
   If no `affinity level` is supplied, it is assumed as `neutral`.
 
+  If an `affinity level` already exists between the two `Biomes` it must be `overwritten`.
+
+  If the `affinity level supplied` is not `positive`, `negative` or `neutral` then the `Biome Manager` must `respond with an error`. The `error` must contain the code `BE-009` with the message `Affinity must be positive, negative or neutral`.
+
+  Once the `affinity level` is set, `Biome Maintainer` must `respond with a success message`. The `success message` must contain the code `BS-003` with the message `<BIOME1> - <BIOME2> affinity <AFFINITY>` where `<BIOME1>` is the `first input` value, `<BIOME2>` is the `second input` and `<AFFINITY>` is the `affinity level`.
+
 - Given `at least one of the inputs does not match an existing Biome` when `setting Biome affinity` then the `Biome Manager` must `respond with an error`.
 
   `Any input` must be trimmed of all `white spaces` at the beginning and the end before validation.
@@ -37,7 +43,89 @@ biome affinity set
 
 ## Contracts
 
-WIP
+### Default affinity
+
+Input:
+
+```
+test1 test2
+```
+
+Output:
+
+```
+BS-003: test1 - test2 affinity neutral
+```
+
+### Supplied affinity
+
+Input:
+
+```
+test1 test2 positive
+```
+
+Output:
+
+```
+BS-003: test1 - test2 affinity positive
+```
+
+### Empty input
+
+Input:
+
+```
+
+```
+
+Output:
+
+```
+BE-006: Biome name must be given
+```
+
+### Missing input
+
+Input:
+
+```
+test1
+```
+
+Output:
+
+```
+BE-006: Biome name must be given
+```
+
+### Mismatched input
+
+Input:
+
+```
+test1 test9
+```
+
+Output:
+
+```
+BE-008: Biome was not found test9
+```
+
+### Bad affinity
+
+Input:
+
+```
+test1 test2 test
+```
+
+Output:
+
+```
+BE-009: Affinity must be positive, negative or neutral
+```
 
 #
 
