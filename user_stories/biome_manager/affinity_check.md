@@ -13,21 +13,21 @@ biome affinity
 
 ## Stories
 
-- As a `Biome Maintainer`, I want to `check the affinities of a specific Biome` when I supply a `single input`;
+- As a `Biome Maintainer`, I want to `check the affinities of a specific Biome`;
 
 ## Acceptance Criteria
 
-- Given a `input` that `is empty or white space only` when `checking Biome affinity` then the `Biome Manager` must `respond with an error`.
+- Given a `single input` that `is empty or white space only` when `checking Biome affinity` then the `Biome Manager` must `respond with an error`.
 
   The `error` must contain the code `BE-006` with the message `Biome name must be given`.
 
-- Given a `Biome name as input` when `checking Biome affinity` then the `Biome Maintainer` must `list all explicit affities of this Biome`.
+- Given a `single Biome name as input` when `checking Biome affinity` then the `Biome Maintainer` must `list all explicit affities of this Biome`.
 
   `The input` must be trimmed of all `white spaces` at the beginning and the end before validation.
 
   Only one model can be matched.
 
-- Given `the input does not match an existing Biome` when `checking Biome affinity` then the `Biome Manager` must `respond with an error`.
+- Given `the single input does not match an existing Biome` when `checking Biome affinity` then the `Biome Manager` must `respond with an error`.
 
   `The input` must be trimmed of all `white spaces` at the beginning and the end before validation.
 
@@ -35,7 +35,55 @@ biome affinity
 
 ## Contracts
 
-WIP
+### Empty input
+
+Input:
+
+```
+
+```
+
+Output:
+
+```
+BE-006: Biome name must be given
+```
+
+### Mismatched input
+
+Input:
+
+```
+test9
+```
+
+Output:
+
+```
+BE-008: Biome was not found
+```
+
+### Regular execution
+
+Input:
+
+```
+test
+```
+
+Output:
+
+```
+Biome: test
+
+Link  Affinity
+----  --------
+test1 Positive
+test2 Negative
+test3 Negative
+test4 Positive
+test5 Positive
+```
 
 #
 
